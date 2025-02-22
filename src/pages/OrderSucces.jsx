@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
 export const OrderSucces = () => {
   return (
     <Box>
-        <Heading as={"h3"}>Order Placed Successfully</Heading>
+        <Heading as={"h3"} color="green"> Order Placed Successfully</Heading>
        <h4>Thankyou </h4>
        <Link to='/'>Continue Shopping</Link>
     </Box>
